@@ -1,0 +1,41 @@
+GET http://localhost:8080/subscribers
+
+
+###
+
+GET http://localhost:8080/subscribers/64877ec5b4492449bead4990
+
+
+###
+
+POST http://localhost:8080/subscribers 
+Content-Type: application/json
+
+{
+    "name": "Dharmveer",
+    "subscribedToChannel": "theStealthGame"
+}
+
+
+
+###
+
+
+DELETE  http://localhost:8080/subscribers/64877ec5b4492449bead4990
+
+
+###
+
+
+###
+
+PATCH  http://localhost:8080/subscribers/648776c714824929284d684f
+Content-Type: application/json
+
+{
+    "name": "Ram Singh"
+    # "subscribedToChannel": "theStealthGame"
+}
+
+
+
